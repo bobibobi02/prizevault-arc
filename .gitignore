@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+lib/
+
+# Build output
+dist/
+contracts/out/
+contracts/cache/
+
+# Runtime / deployment metadata (auto-generated, not source)
+console.jsonl
+traces.jsonl
+contracts/contract-metadata/*.json
+
+# Environment files — never commit secrets
+.env
+.env.*
+!.env.example
+
+# Circle credentials and recovery files
+.circle/
+*recovery_file*
+*entity_secret*
+
+# Editor / OS
+.DS_Store
+*.local
+.vscode/
+.idea/
+
+# Logs
+*.log
+/tmp/
