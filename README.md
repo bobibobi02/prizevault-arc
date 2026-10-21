@@ -12,7 +12,7 @@ A transparent USDC prize-pool escrow on Arc. The organizer creates a vault, depo
 
 Use the Mainnet toggle in the app header. If you have several wallet extensions installed, disable all but your own wallet — multiple extensions can conflict with each other.
 
-Built in [Arc Studio](https://studio.arc.io/app/42d70458-62c1-4832-ad86-4ceb65495674).
+Built in [Arc Studio](https://studio.arc.io/app/42d70458-62c1-4832-ad86-4ceb65495674). The contract and app were written and tested on Arc Testnet in Studio. The mainnet contract was deployed by the author from their own wallet using Remix, with the same source and compiler settings, and verified on the explorer; Studio then set the mainnet address in the app config.
 
 ---
 
